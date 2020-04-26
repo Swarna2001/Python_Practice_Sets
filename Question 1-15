@@ -61,4 +61,97 @@ while choice=='y':
 
 print(user_set)
 
-6.  
+6. """Write a Python program to create an intersection of sets."""
+
+temp_list = list()
+
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 1 :'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_1 = set(temp_list)
+
+temp_list = list()
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 2:'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_2 = set(temp_list)
+
+print('The union of the two sets is ', set_1.intersection(set_2))
+
+7.  """Write a Python program to create an intersection of sets."""
+
+temp_list = list()
+
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 1 :'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_1 = set(temp_list)
+
+temp_list = list()
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 2:'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_2 = set(temp_list)
+
+print('The intersection of the two sets is ', set_1.union(set_2))
+
+8. """Write a Python program to create set difference."""
+
+temp_list = list()
+
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 1 :'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_1 = set(temp_list)
+
+temp_list = list()
+choice = 'y'
+
+while choice=='y':
+
+  elt = int(input('Enter the element to add to the set 2:'))
+
+  temp_list.append(elt)
+
+  choice = input('Do you want to continue (y/n) :')
+
+set_2 = set(temp_list)
+
+print('The set difference of the two sets is ', set_1.symmetric_difference(set_2))
+
+9. 
