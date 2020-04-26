@@ -1,0 +1,64 @@
+1. """ Write a Python program to create a set."""
+new_set = set()
+
+2. """Write a Python program to iteration over sets."""
+new_list = list()
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element to add to the set :'))
+  new_list.append(elt)
+  choice = input('Do you want to continue (y/n) :')
+new_set = set(new_list)
+for i in new_set:
+  print(i)
+  
+3. """Write a Python program to add member(s) in a set."""
+new_list = list()
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element to add to the set :'))
+  new_list.append(elt)
+  choice = input('Do you want to continue (y/n) :')
+new_set = set(new_list)
+for i in new_set:
+  print(i)
+
+4. """Write a Python program to remove item(s) from set"""
+
+temp_list = []
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element of the set : '))
+  temp_list.append(elt)
+  choice = input('Do you want to continue(y/n) : ')
+
+user_set = set(temp_list)
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element to be deleted :'))
+  if elt in user_set:
+    user_set.remove(elt)
+  choice = input('Do you want to continue(y/n) : ')
+
+print(user_set)
+
+5. """Write a Python program to remove an item from a set if it is present in the set."""
+
+temp_list = []
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element of the set : '))
+  temp_list.append(elt)
+  choice = input('Do you want to continue(y/n) : ')
+
+user_set = set(temp_list)
+choice = 'y'
+while choice=='y':
+  elt = int(input('Enter the element to be deleted :'))
+  if elt in user_set:
+    user_set.remove(elt)
+  choice = input('Do you want to continue(y/n) : ')
+
+print(user_set)
+
+6.  
